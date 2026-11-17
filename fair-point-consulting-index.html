@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fair Point Consulting provides independent construction consulting, project delivery advisory, and technical review support for commercial and residential projects.">
+  <meta name="theme-color" content="#142638">
+  <title>Fair Point Consulting | Independent Construction Consulting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#142638;--navy2:#20394d;--gold:#b89a67;--ink:#263442;--muted:#687582;--paper:#f7f5f0;--white:#fff;--line:#e6e1d8}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:"DM Sans",Arial,sans-serif;line-height:1.65;background:#fff}a{color:inherit;text-decoration:none}.container{width:min(1160px,calc(100% - 48px));margin:auto}
+    h1,h2,h3,.brand{font-family:Manrope,Arial,sans-serif;letter-spacing:-.035em}h1{font-size:clamp(2.8rem,6vw,5.4rem);line-height:1.04;margin:22px 0}h2{font-size:clamp(2rem,4vw,3.15rem);line-height:1.15;margin:0 0 18px}h3{font-size:1.15rem;line-height:1.3;margin:0 0 10px}p{margin:0 0 16px}.eyebrow{font-size:.76rem;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:var(--gold)}.muted{color:var(--muted)}
+    .topbar{background:var(--navy);color:#d9e0e5;font-size:.78rem;letter-spacing:.04em}.topbar .container{display:flex;justify-content:space-between;padding:9px 0;gap:16px}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid rgba(20,38,56,.08)}nav{height:84px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand-lockup{display:flex;align-items:center;gap:13px}.mark{width:42px;height:42px;border:1.5px solid var(--gold);display:grid;place-items:center;color:var(--gold);font-family:Manrope;font-weight:800;font-size:1.25rem;position:relative}.mark:after{content:"";position:absolute;width:17px;height:17px;border-top:1px solid var(--gold);border-right:1px solid var(--gold);right:5px;top:5px}.brand{font-size:1.1rem;font-weight:800;letter-spacing:.07em;color:var(--navy);line-height:1.15}.brand small{display:block;font:600 .58rem "DM Sans";letter-spacing:.17em;color:#8a7654;margin-top:5px}.navlinks{display:flex;align-items:center;gap:30px;font-size:.88rem;font-weight:600;color:#455361}.navlinks a:hover{color:var(--gold)}.nav-cta,.button{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#fff;padding:13px 21px;font-weight:700;font-size:.86rem;letter-spacing:.02em;transition:.2s;border:1px solid var(--gold)}.nav-cta:hover,.button:hover{background:#a48655;transform:translateY(-1px)}.menu{display:none;background:none;border:0;font-size:1.5rem;color:var(--navy)}
+    .hero{background:linear-gradient(90deg,rgba(13,31,47,.96) 0%,rgba(13,31,47,.88) 54%,rgba(13,31,47,.43) 100%),url("https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=2000&q=85") center/cover;min-height:650px;display:flex;align-items:center;color:white}.hero-content{max-width:760px;padding:100px 0}.hero .eyebrow{color:#d3b783}.hero h1 span{color:#d2b47e}.hero p{max-width:650px;color:#dce3e8;font-size:1.1rem;line-height:1.8}.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}.button-outline{display:inline-flex;align-items:center;justify-content:center;padding:13px 21px;border:1px solid rgba(255,255,255,.55);color:white;font-size:.86rem;font-weight:700}.button-outline:hover{background:rgba(255,255,255,.1)}
+    .trust-strip{background:var(--paper);border-bottom:1px solid var(--line)}.trust-grid{display:grid;grid-template-columns:repeat(3,1fr);padding:27px 0}.trust-item{text-align:center;padding:0 20px;border-right:1px solid #ddd6ca}.trust-item:last-child{border:0}.trust-item strong{display:block;color:var(--navy);font:800 1.5rem Manrope}.trust-item span{font-size:.78rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+    section{padding:100px 0}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.intro-photo{min-height:490px;background:url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=85") center/cover;position:relative}.photo-note{position:absolute;bottom:22px;left:22px;background:var(--navy);color:white;padding:18px 22px;max-width:230px;font-size:.85rem}.photo-note strong{display:block;color:#d3b783;font:700 1.5rem Manrope}.intro-copy p{color:var(--muted)}.check-list{list-style:none;padding:0;margin:26px 0 0}.check-list li{padding:11px 0 11px 28px;border-bottom:1px solid var(--line);position:relative}.check-list li:before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:800}
+    .services{background:var(--paper)}.section-head{max-width:690px;margin-bottom:48px}.section-head p{color:var(--muted);font-size:1.02rem}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}.service-card{background:#fff;padding:30px;min-height:220px}.service-number{font:700 .8rem Manrope;color:var(--gold);letter-spacing:.12em;margin-bottom:22px}.service-card p{font-size:.9rem;color:var(--muted);margin:0}
+    .statement{background:var(--navy);color:white;padding:78px 0}.statement-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.statement h2{font-size:clamp(2rem,3.5vw,2.8rem)}.statement p{color:#c8d1d8}.statement .eyebrow{color:#d3b783}
+    .profile-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:75px;align-items:center}.profile-card{background:var(--paper);padding:42px}.profile-initials{width:78px;height:78px;border:1px solid var(--gold);display:grid;place-items:center;font:800 1.8rem Manrope;color:var(--gold);margin-bottom:24px}.profile-card .eyebrow{margin-bottom:12px}.profile-copy p{color:var(--muted)}.credential-note{font-size:.85rem;border-left:2px solid var(--gold);padding-left:16px;margin-top:24px;color:#586572}
+    .sectors{background:var(--paper)}.sector-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.sector{background:#fff;padding:30px;border:1px solid var(--line)}.sector h3{color:var(--navy)}.sector p{color:var(--muted);font-size:.9rem;margin:0}
+    .process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:42px}.step{border-top:2px solid var(--gold);padding-top:20px}.step b{font:800 1.8rem Manrope;color:#c4aa7d}.step h3{margin-top:14px}.step p{font-size:.88rem;color:var(--muted)}
+    .contact{background:var(--navy);color:white}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:75px}.contact p{color:#c8d1d8}.contact .eyebrow{color:#d3b783}.contact-details{margin-top:34px}.contact-details div{padding:13px 0;border-bottom:1px solid rgba(255,255,255,.15);color:#dce3e8}.contact-details span{display:block;color:#d3b783;text-transform:uppercase;letter-spacing:.12em;font-size:.7rem;font-weight:700}.contact-form{background:#fff;color:var(--ink);padding:34px}.contact-form h3{font-size:1.35rem;margin-bottom:8px}.contact-form p{color:var(--muted);font-size:.88rem}.field{margin:18px 0}.field label{display:block;font-size:.78rem;font-weight:700;margin-bottom:7px;color:#52606d}.field input,.field textarea,.field select{width:100%;padding:13px 14px;border:1px solid #d9dfe3;font:inherit;font-size:.9rem;background:#fff;color:var(--ink)}.field textarea{min-height:115px;resize:vertical}.contact-form .button{width:100%;cursor:pointer}.form-note{font-size:.75rem!important;margin-top:12px;color:#7b8791!important}
+    footer{background:#0e1d2a;color:#aeb9c2;padding:28px 0;font-size:.78rem}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-brand{color:#fff;font:700 .9rem Manrope;letter-spacing:.08em}
+    @media(max-width:850px){.navlinks{display:none;position:absolute;top:84px;left:0;right:0;background:#fff;padding:20px 24px 28px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.navlinks.open{display:flex}.nav-cta{display:none}.menu{display:block}.intro-grid,.statement-grid,.profile-grid,.contact-grid{grid-template-columns:1fr;gap:38px}.intro-photo{min-height:360px}.service-grid{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.container{width:min(100% - 34px,1160px)}.topbar .container{font-size:.68rem}.hero{min-height:590px}.hero-content{padding:80px 0}.hero p{font-size:1rem}.trust-grid{grid-template-columns:1fr;gap:18px}.trust-item{border-right:0;border-bottom:1px solid #ddd6ca;padding:0 0 16px}.trust-item:last-child{border:0;padding:0}.service-grid,.sector-grid,.process-grid{grid-template-columns:1fr}section{padding:72px 0}.service-card{min-height:0}.profile-card{padding:30px}.contact-form{padding:25px}.footer-inner{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>INDEPENDENT CONSTRUCTION CONSULTING</span><span>COMMERCIAL &amp; RESIDENTIAL PROJECTS</span></div></div>
+  <header>
+    <nav class="container">
+      <a class="brand-lockup" href="#home" aria-label="Fair Point Consulting home">
+        <span class="mark">F</span><span class="brand">FAIR POINT<small>CONSULTING</small></span>
+      </a>
+      <button class="menu" aria-label="Toggle navigation" onclick="document.querySelector('.navlinks').classList.toggle('open')">☰</button>
+      <div class="navlinks">
+        <a href="#about">About</a><a href="#services">Services</a><a href="#experience">Experience</a><a href="#approach">Our Approach</a><a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta" href="#contact">Start a Conversation</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container"><div class="hero-content">
+        <div class="eyebrow">Independent Construction Consulting</div>
+        <h1>Clarity for complex projects.<br><span>Confidence in every decision.</span></h1>
+        <p>Fair Point Consulting provides experienced, independent guidance to help owners, contractors, and project teams navigate construction challenges with practical insight and informed support.</p>
+        <div class="hero-actions"><a class="button" href="#services">Explore Our Services</a><a class="button-outline" href="#contact">Discuss Your Project</a></div>
+      </div></div>
+    </section>
+
+    <div class="trust-strip"><div class="container trust-grid">
+      <div class="trust-item"><strong>20+ Years</strong><span>Industry Experience</span></div>
+      <div class="trust-item"><strong>Independent</strong><span>Objective Perspective</span></div>
+      <div class="trust-item"><strong>Practical</strong><span>Project-Focused Advice</span></div>
+    </div></div>
+
+    <section id="about"><div class="container intro-grid">
+      <div class="intro-photo"><div class="photo-note"><strong>Fair Point</strong>Clear thinking. Experienced perspective. Better-informed decisions.</div></div>
+      <div class="intro-copy">
+        <div class="eyebrow">A Different Perspective</div>
+        <h2>Experienced insight, focused on your project.</h2>
+        <p>Construction projects involve countless decisions, competing priorities, and details that need to come together. Having an experienced, independent resource can help bring clarity to the process.</p>
+        <p>Fair Point Consulting offers construction consulting and project delivery support tailored to the needs of each client. We work alongside project stakeholders, providing practical guidance, coordination support, and an informed perspective throughout key stages of a project.</p>
+        <ul class="check-list"><li>Independent consulting and advisory support</li><li>Practical, experience-led recommendations</li><li>Support tailored to project needs and priorities</li><li>Clear communication and a collaborative approach</li></ul>
+      </div>
+    </div></section>
+
+    <section class="services" id="services"><div class="container">
+      <div class="section-head"><div class="eyebrow">What We Do</div><h2>Consulting services that move projects forward.</h2><p>Flexible support for project owners, contractors, and teams seeking an experienced perspective, stronger coordination, and informed project decisions.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-number">01 / ADVISORY</div><h3>Project Delivery Advisory</h3><p>Practical guidance to help teams assess project needs, identify challenges, and make informed delivery decisions.</p></article>
+        <article class="service-card"><div class="service-number">02 / TECHNICAL</div><h3>Specifications Review Support</h3><p>Support in reviewing project specifications for clarity, coordination, and potential gaps or inconsistencies.</p></article>
+        <article class="service-card"><div class="service-number">03 / DOCUMENTATION</div><h3>Shop Drawing Review Support</h3><p>Organized review coordination and constructability-focused observations to help project teams work through technical submissions.</p></article>
+        <article class="service-card"><div class="service-number">04 / CONSULTING</div><h3>Construction Consulting</h3><p>Independent insight on construction-related questions, project challenges, and practical paths forward.</p></article>
+        <article class="service-card"><div class="service-number">05 / COORDINATION</div><h3>Planning &amp; Coordination</h3><p>Support with project planning, interface coordination, action tracking, and communication between stakeholders.</p></article>
+        <article class="service-card"><div class="service-number">06 / CONTROLS</div><h3>Cost &amp; Schedule Advisory</h3><p>High-level review and practical guidance to support visibility into project costs, schedule considerations, and emerging risks.</p></article>
+        <article class="service-card"><div class="service-number">07 / QUALITY</div><h3>Quality Documentation Support</h3><p>Assistance with organizing quality documentation, tracking deliverables, and improving document readiness.</p></article>
+        <article class="service-card"><div class="service-number">08 / TECHNICAL</div><h3>Technical Document Support</h3><p>Help navigating technical submissions, project records, and document workflows across project teams.</p></article>
+        <article class="service-card"><div class="service-number">09 / STAKEHOLDERS</div><h3>Owner &amp; Contractor Support</h3><p>An experienced sounding board for owners and contractors who need additional project perspective and support.</p></article>
+      </div>
+    </div></section>
+
+    <section class="statement"><div class="container statement-grid">
+      <div><div class="eyebrow">Our Role</div><h2>Independent advice. Not construction execution.</h2></div>
+      <div><p>Fair Point Consulting is an independent consulting practice. We provide advisory, coordination, and review-support services; we do not act as a general contractor, provide construction labour, or undertake construction work.</p><p>Our role is to help clients and project teams think through the details, understand their options, and make better-informed decisions.</p></div>
+    </div></section>
+
+    <section id="experience"><div class="container profile-grid">
+      <div class="profile-card"><div class="profile-initials">WB</div><div class="eyebrow">Principal Consultant</div><h2>Wendel Baker</h2><p class="muted">Construction Consultant</p><p><strong>20 years of industry experience</strong></p></div>
+      <div class="profile-copy"><div class="eyebrow">Experience That Matters</div><h2>Built on hands-on industry knowledge.</h2><p>Fair Point Consulting is led by Wendel Baker, bringing more than 20 years of experience in the construction industry. His background combines practical industry knowledge with an understanding of the coordination, documentation, and decisions that shape successful project delivery.</p><p>Wendel also earned his Red Seal certification at an exceptionally young age, reflecting an early commitment to developing his trade knowledge and professional expertise.</p><div class="credential-note">Specific credentials, designations, and the scope of any technical review services will be confirmed and represented accurately in the final company profile.</div></div>
+    </div></section>
+
+    <section class="sectors"><div class="container">
+      <div class="section-head"><div class="eyebrow">Where We Help</div><h2>Support across project types.</h2><p>Every project has its own requirements. Our consulting approach is adapted to the people, priorities, and challenges involved.</p></div>
+      <div class="sector-grid">
+        <div class="sector"><h3>Commercial Projects</h3><p>Consulting support for commercial construction projects, stakeholder coordination, technical documentation, and project delivery considerations.</p></div>
+        <div class="sector"><h3>Residential Projects</h3><p>Independent perspective and practical guidance for residential projects, from reviewing project information to helping clarify next steps.</p></div>
+        <div class="sector"><h3>Industrial &amp; Institutional</h3><p>Experience-informed support for projects with complex interfaces, documentation requirements, and multiple stakeholders.</p></div>
+        <div class="sector"><h3>Owners &amp; Project Teams</h3><p>Flexible consulting support for clients who need an additional experienced resource to help assess issues and coordinate decisions.</p></div>
+      </div>
+    </div></section>
+
+    <section id="approach"><div class="container">
+      <div class="section-head"><div class="eyebrow">How We Work</div><h2>A straightforward, collaborative approach.</h2><p>We focus on understanding the project first, then providing support that is relevant, practical, and proportionate to the need.</p></div>
+      <div class="process-grid">
+        <div class="step"><b>01</b><h3>Understand</h3><p>We listen, review the available information, and understand the project objectives and challenges.</p></div>
+        <div class="step"><b>02</b><h3>Assess</h3><p>We consider the details, identify key questions, and help clarify potential options.</p></div>
+        <div class="step"><b>03</b><h3>Advise</h3><p>We provide practical observations and recommendations within the agreed consulting scope.</p></div>
+        <div class="step"><b>04</b><h3>Support</h3><p>We remain a resource as the team works through next steps and project priorities.</p></div>
+      </div>
+    </div></section>
+
+    <section class="contact" id="contact"><div class="container contact-grid">
+      <div><div class="eyebrow">Let's Talk</div><h2>Tell us about your project.</h2><p>Whether you need a second perspective, support navigating project documentation, or an experienced resource to help work through a challenge, we would be pleased to hear from you.</p>
+        <div class="contact-details"><div><span>Company</span>Fair Point Consulting</div><div><span>Principal Consultant</span>Wendel Baker</div><div><span>Email</span>Replace with your business email</div><div><span>Service Area</span>To be confirmed</div></div>
+      </div>
+      <form class="contact-form" action="mailto:REPLACE-WITH-FAIR-POINT-EMAIL@example.com" method="post" enctype="text/plain">
+        <h3>Start a Conversation</h3><p>Share a few details and we'll be in touch.</p>
+        <div class="field"><label for="name">Your Name</label><input id="name" name="Name" type="text" placeholder="Full name" required></div>
+        <div class="field"><label for="email">Email Address</label><input id="email" name="Email" type="email" placeholder="you@example.com" required></div>
+        <div class="field"><label for="project">How can we help?</label><select id="project" name="Service"><option value="">Select a service</option><option>Project delivery advisory</option><option>Specifications review support</option><option>Shop drawing review support</option><option>Construction consulting</option><option>Other / Not sure yet</option></select></div>
+        <div class="field"><label for="message">Project Details</label><textarea id="message" name="Message" placeholder="Tell us a little about your project or question..."></textarea></div>
+        <button class="button" type="submit">Prepare Email</button><p class="form-note">Prototype contact form: replace the placeholder email address before publishing for business use. This form opens your email application; it does not send information to a website database.</p>
+      </form>
+    </div></section>
+  </main>
+
+  <footer><div class="container footer-inner"><div><div class="footer-brand">FAIR POINT CONSULTING</div><div>Independent Construction Consulting</div></div><div>© <span id="year"></span> Fair Point Consulting. All rights reserved.</div></div></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.navlinks').classList.remove('open')));</script>
+</body>
+</html>
